@@ -1,2 +1,3 @@
-# mapify.github.io
+# mapify
+
 Make your workouts easier by mapify.
