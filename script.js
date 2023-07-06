@@ -31,7 +31,7 @@ class Running extends Workout {
   type = 'running';
 
   constructor(coords, distance, duration, cadence) {
-    super(coords, distance, duration);
+    super(coords, distance, duration);//super method is used to call parent's constructor
     this.cadence = cadence;
     this.calcPace();
     this._setDescription();
